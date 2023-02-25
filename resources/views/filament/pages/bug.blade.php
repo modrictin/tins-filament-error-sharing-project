@@ -51,6 +51,8 @@
 
                 </div>
             </x-slot>
+
+            <button wire:click="render">Render</button>
         </x-filament::modal>
     </div>
 </x-filament::page>
